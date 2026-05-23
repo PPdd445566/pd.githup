@@ -9,7 +9,7 @@ const products = [
 
     { 
         id: 2,
-        name: "ນໍ້າໝາກພ້າວນໍ້າຫອມ 1L",
+        name: "ນໍ້າໝາກພ້າວ 1L",
         en: "Coconut Water 1L",
         price: 50000,
         image: "2.png.jpeg"
@@ -25,7 +25,7 @@ const products = [
 
     { 
         id: 4,
-        name: "ນໍ້າຫມາກພ້າວຈອກ 250ML",
+        name: "ນໍ້າໝາກພ້າວຈອກ 250ML",
         en: "Coconut Water Cup 250ML",
         price: 25000,
         image: "4.png.jpeg"
@@ -49,7 +49,7 @@ const products = [
 
     { 
         id: 7,
-        name: "ນໍ້າຫມາກພ້າວອັດກະປ໋ອງ 250ML",
+        name: "ນໍ້າໝາກພ້າວອັດກະປ໋ອງ 250ML",
         en: "Canned Coconut Water 250ML",
         price: 19000,
         image: "7.png.jpeg"
@@ -91,7 +91,7 @@ const products = [
         id: 12,
         name: "ພຸດດິ້ງໝາກພ້າວອ່ອນ",
         en: "Young coconut pudding",
-        price: 35000,
+        price: 80000,
         image: "12.png.jpeg"
     }
 ];

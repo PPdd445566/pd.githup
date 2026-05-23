@@ -32,7 +32,6 @@ header {
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
-/* คอนเทนเนอร์หลัก: ปรับให้เรียงจากบนลงล่าง */
 .container {
     display: flex;
     flex-direction: column;
@@ -42,7 +41,6 @@ header {
     padding: 0 15px 40px;
 }
 
-/* ส่วนแสดงสินค้าด้านบน: ใช้ CSS Grid จัดเรียงแถวละ 2-3 ชิ้นอัตโนมัติ */
 .products-grid {
     width: 100%;
     display: grid;
@@ -50,7 +48,6 @@ header {
     gap: 20px;
 }
 
-/* สไตล์การ์ดสินค้า */
 .product-card {
     background: white;
     border-radius: 8px;
@@ -121,7 +118,6 @@ header {
     transform: scale(1.03);
 }
 
-/* ส่วนตะกร้าสินค้าด้านล่างสุด: ปรับหน้ากว้าง 100% */
 .cart-section {
     width: 100%;
     background: white;
@@ -131,7 +127,6 @@ header {
     height: auto;
 }
 
-/* จัดส่วนสรุปสินค้าและฟอร์มข้อมูลให้อยู่ซ้าย-ขวาคู่กัน */
 .cart-layout {
     display: flex;
     gap: 40px;
@@ -255,7 +250,6 @@ header {
     transform: scale(1.01);
 }
 
-/* สไตล์หน้าใบเสร็จ */
 .receipt-body {
     background-color: #fff;
     max-width: 500px;
@@ -295,7 +289,6 @@ header {
     }
 }
 
-/* ระบบ Responsive รองรับมือถือ */
 @media (max-width: 768px) {
     .products-grid {
         grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
